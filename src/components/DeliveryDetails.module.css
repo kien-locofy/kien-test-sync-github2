@@ -1,0 +1,40 @@
+.freeDelivery {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.forAllOders {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  color: #9f9f9f;
+}
+.deliveryDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 282px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 32px;
+  color: #000;
+  font-family: Poppins;
+}
+@media screen and (max-width: 750px) {
+  .freeDelivery {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .freeDelivery {
+    font-size: 19px;
+  }
+  .forAllOders {
+    font-size: 16px;
+  }
+}
